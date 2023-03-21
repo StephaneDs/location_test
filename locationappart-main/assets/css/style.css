@@ -1,0 +1,335 @@
+body,h1,h2,h3,h4,h5,h6 {
+    font-family: "Raleway", Arial, Helvetica, sans-serif; 
+}
+
+body{
+    display: flex;
+    border-right: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    max-width: 980px;
+    font-size: 15px;
+    line-height: 1.5;
+    margin: auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 400;
+    margin: 10px 0;
+}
+
+h2{
+    font-size: 30px;
+}
+
+h3{
+    font-size: 24px;
+}
+
+h4{
+    font-size: 20px;
+}
+
+h6{
+    font-size: 16px;
+}
+
+hr {
+    box-sizing: content-box;
+    height: 0;
+    overflow: visible;
+    border: 0;
+    border-top: 1px solid #eee;
+    margin: 20px 0;
+}
+
+.input-left{
+    border: 1px solid #ccc;
+    width: 210px;
+    padding: 8px;
+    font: inherit;
+    margin: auto;
+}
+
+.button-left{
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    padding: 8px 16px;
+    vertical-align: middle;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    font: inherit;
+}
+
+button:hover {
+    color: black;
+    background-color: #ccc;
+}
+
+.container{
+    padding-top: 0.01em 16px;
+    padding-right: 16px;
+    padding-left: 292px;
+}
+
+.sidebar{
+    background-color: #f1f1f1;
+    z-index: 99;
+    min-width: 260px;
+    height: 100%;
+    overflow: auto;
+    position: fixed;
+    display: block;
+
+}
+
+.content-sidebar {
+    padding: 0.01em 16px;
+}
+
+.main-title {
+    color: #4CAF50!important;  
+}
+
+.mySlides {
+    display: none
+}
+
+.bar-item{
+    color: black;
+    width: 100%;
+    display: block;
+    padding: 8px 16px;
+    text-align: left;
+    border: none;
+    white-space: normal;
+    float: none;
+    outline: 0;
+    padding: 16px 0 16px 0;
+    text-decoration: none;
+}
+
+.bar-item:hover {
+background-color: #ccc;
+}
+
+.space{
+    display: flex;
+}
+
+.half-container{
+    width: 50%;
+}
+
+.amenities{
+    display: flex;
+}
+
+.text-details{
+    font-size: 18px!important;
+}
+
+.button-right{
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    padding: 8px 16px;
+    vertical-align: middle;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    width: 33.3333%;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    font: inherit;
+}
+
+.input-right{
+    border: 1px solid #ccc;
+    width: 98%;
+    margin-top: 18px;
+    margin-bottom: 18px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+.final-form{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
+
+
+
+
+
+/*                   carousel                 */
+
+img {
+    vertical-align: middle;
+   
+  }
+  
+  /* Position the image container (needed to position the left and right arrows) */
+  .container-carousel {
+  position: relative;
+   
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+  
+  /* Add a pointer when hovering over the thumbnail images */
+  .cursor {
+    cursor: pointer;
+  }
+  
+  /* Next & previous buttons */
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* Container for image text */
+  .caption-container {
+    text-align: center;
+    background-color: white;
+    padding: 2px 16px;
+    color: black;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Six columns side by side */
+  .column {
+    float: left;
+    width: 16.66%;
+  }
+  
+  /* Add a transparency effect for thumnbail images */
+  .demo {
+    opacity: 0.6;
+  }
+  
+  .active,
+  .demo:hover {
+    opacity: 1;
+  }
+
+
+
+
+
+
+
+
+
+
+/*MEDIAS QUERIES-----------------------------------*/
+
+@media screen and (max-width: 995px) {
+.close{
+    display: block;
+    color: black;
+    text-decoration: none;
+    text-align: end;
+    padding-top: 8px;
+}
+/*
+.sidebar{
+    display: block;
+    background-color: #f1f1f1;
+    z-index: 99;
+    min-width: 260px;
+    height: 100%;
+    overflow: auto;
+    position: fixed;
+}*/
+
+.container{
+    padding-left: 16px;
+}
+
+.main-title{
+    margin-top: 36px;
+}
+
+.little-nav{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    font-size: 24px;
+    padding-left: 16px;
+    padding-right: 16px;
+   
+}
+}
+
+@media screen and (max-width: 768px) {
+
+.space{
+    display: block;
+}
+
+.amenities{
+    display: block;
+}
+
+.button-right{
+width: 100%;
+}
+
+}
